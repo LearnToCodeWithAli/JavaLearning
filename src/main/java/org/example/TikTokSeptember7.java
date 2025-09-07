@@ -63,7 +63,6 @@ public class TikTokSeptember7 {
 //            speed = scanner.nextInt();
 //        }
 
-        System.out.println((Arrays.asList("Aang", "Katara", "Toph", "Sokka").getClass()));
 
         ArrayList<String> atla = new ArrayList<>(Arrays.asList("Aang", "Katara", "Toph", "Sokka"));
 
@@ -74,16 +73,19 @@ public class TikTokSeptember7 {
             switch(atlaCharacter){
                 case AANG:
                     quote = "I'm the avatar";
+                    break;
                 case KATARA:
                     quote = "I'm a waterbender";
+                    break;
                 case TOPH:
                     quote = "I'm the Blind Bandit!";
+                    break;
                 case SOKKA:
                     quote = "I'm the strongest warrior in the village!";
             }
+            System.out.println(quote);
         }
 
-        System.out.println(quote);
 
 
     }
